@@ -1,0 +1,23 @@
+
+> react-spotify@0.1.0 submit /home/ascencion/codenation/react-17
+> react-scripts test src/__tests__/validation.spec.js --reporters=default --reporters=jest-junit "--watchAll=false"
+
+  console.error node_modules/react-dom/cjs/react-dom.development.js:88
+    Warning: Invalid DOM property `stop-color`. Did you mean `stopColor`?
+        in stop (at Login.jsx:30)
+        in linearGradient (at Login.jsx:29)
+        in svg (at Login.jsx:28)
+        in div (at Login.jsx:27)
+        in main (at Login.jsx:13)
+        in Login (at LoginRoute.jsx:7)
+        in LoginRoute (created by Context.Consumer)
+        in Route (at routes/index.jsx:13)
+        in Switch (at routes/index.jsx:12)
+        in Routes (at App.jsx:17)
+        in Router (created by BrowserRouter)
+        in BrowserRouter (at App.jsx:16)
+        in div (at App.jsx:15)
+        in PersistGate (at App.jsx:14)
+        in Provider (at App.jsx:13)
+        in App (at validation.spec.js:77)
+
